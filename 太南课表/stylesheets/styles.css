@@ -1,0 +1,76 @@
+.im {
+    text-align: center;
+}
+
+.maincontent {
+    background-image: url("2.jpg");
+}
+
+.jumbotron {
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.logo {
+    display: inline-block;
+    height: 150px;
+}
+
+.logo1 {
+    display: inline-block;
+    height: 50px;
+}
+
+.slogan {
+    text-align: center;
+}
+
+.ver {
+    font-size: 15px;
+}
+
+.ad {
+    text-align: center;
+    color: black;
+    font-size: large;
+}
+
+.btn {
+    width: 200px;
+}
+
+#foot {
+    width: 100%;
+    height: 20px;
+}
+
+#footdown {
+    width: 100%;
+    height: 60px;
+    color: antiquewhite;
+}
+
+.row {
+    min-height: 550px;
+}
+
+.team {
+    color: darkgray;
+}
+
+#changelog {
+    max-height: 200px;
+    overflow-y: auto;
+    background-color: black;
+    color: white;
+    margin: 0
+
+}
+
+.dropdown-menu {
+    border: black;
+    margin: 0;
+    padding-left: unset;
+    padding-right: unset;
+    padding-top: unset;
+    padding-bottom: unset;
+}

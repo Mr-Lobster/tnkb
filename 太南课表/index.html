@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>太南课表</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- 引入 Bootstrap -->
+    <link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    <script src="jquery-3.4.1/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+    <!-- HTML5 Shiv 和 Respond.js 用于让 IE8 支持 HTML5元素和媒体查询 -->
+    <!-- 注意： 如果通过 file://  引入 Respond.js 文件，则该文件无法起效果 -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+    <!--引入本地文件-->
+    <link href="stylesheets/styles.css" rel="stylesheet"/>
+    <script src="scripts/index.js"></script>
+    <link rel="Shortcut Icon" href="favicon.ico">
+</head>
+
+<body>
+<div class="maincontent ">
+
+    <nav class="navbar navbar-inverse" role="navigation">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="#">太南课表</a>
+            </div>
+            <div>
+                <ul class="nav navbar-nav">
+                    <li class="active">
+                        <a href="#">主页</a>
+                    </li>
+
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                            更新日志
+                            <b class="caret"></b>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <h5 id="changelog">更新日志</h5>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+
+            <div>
+                <h6 class="ver navbar-right team" id="ver" id="app_info"> Version </h6>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12">
+
+                <p class="im">
+                    <img src="app_icon.png" alt="太南课表" class="logo  img-rounded">
+                </p>
+                <br>
+
+                <h1 class="slogan">
+                    太南课表
+                </h1>
+                </p>
+                <br>
+                <br>
+
+                <p class="ad">
+                    轻量化设计，全新无广告，快捷高效，最适合学生使用的课表
+                </p>
+                <br>
+                <br>
+                <br>
+                <p>
+                <div align="center">
+                    <a href="src/Payload.ipa">
+                        <button type="button" class="btn btn-info btn-lg">
+                            <span class="glyphicon glyphicon-save" aria-hidden="true"></span> For Ios
+                        </button>
+                    </a>
+
+                    <a href="src/app-release.apk">
+                        <button type="button" class="btn btn-info btn-lg">
+                            <span class="glyphicon glyphicon-save" aria-hidden="true"></span> For Android
+                        </button>
+                    </a>
+                </div>
+                </p>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<div id="foot" style="background-color:darkgrey ">
+    <div id="logo"></div>
+</div>
+<div id="footdown" style="background-color:black">
+    <div class="container">
+        <p class="text-center"><small class="text-center">Copyright ©2020 All rights reserved | This site is made
+            with 霖 </small></p>
+        <p class="text-center"><small class="text-center">联系方式 Email:837311914@qq.com</small></p>
+    </div>
+</div>
+</body>
+</html>

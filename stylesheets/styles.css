@@ -28,6 +28,10 @@
     font-size: 15px;
 }
 
+.team {
+    color: darkgray;
+}
+
 .ad {
     text-align: center;
     color: black;
@@ -53,17 +57,11 @@
     min-height: 550px;
 }
 
-.team {
-    color: darkgray;
-}
 
 #changelog {
     max-height: 200px;
     overflow-y: auto;
-    background-color: black;
-    color: white;
     margin: 0
-
 }
 
 .dropdown-menu {
@@ -73,4 +71,12 @@
     padding-right: unset;
     padding-top: unset;
     padding-bottom: unset;
+}
+
+#ft {
+    margin-top: 10px;
+}
+
+#st {
+    margin-top: 10px;
 }

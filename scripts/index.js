@@ -22,4 +22,6 @@ $(document).ready(function () {
         var x = data[0]["apkData"];
         $("h6").text("V." + x["versionName"] + "+" + x["versionCode"]);
     });
+    $('#identifier').modal(options)
 });
+
